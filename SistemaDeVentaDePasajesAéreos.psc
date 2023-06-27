@@ -1,33 +1,33 @@
 Proceso SistemaDeVentaDePasajesAereos
 	//Definicion de variables y parametros.
-	definir pasajeros como entero
+	
+	Definir pasajeros como entero
 	Dimension pasajeros[10]
 	
-	definir nombre Como Caracter
+	Definir nombre Como Caracter
 	Dimension nombre[10]
 	
-	definir dni como texto
+	Definir dni como texto
 	Dimension dni[10]
 	
-	definir telefono como texto
+	Definir telefono como texto
 	Dimension telefono[10] 
 	
-	definir bodega Como Entero
+	Definir bodega Como Entero
 	Dimension bodega[10]
 	
-	definir numPasFrec como texto
+	Definir numPasFrec como texto
 	Dimension numPasFrec[10]
 	
 	
-	definir rutasAereas como entero //array de rutas aereas disponibles
+	Definir rutasAereas como entero //array de rutas aereas disponibles
 	Dimension rutasAereas[4]	
 	
-	definir costoPasajes como entero
+	Definir costoPasajes como entero
 	Dimension costoPasajes[10]
 	
 	
-	definir opcionMenu Como Entero
-	
+	Definir opcionMenu Como Entero
 	Definir salirMenu Como Caracter
 	
 	Definir arrayAsientos Como Entero
@@ -58,7 +58,6 @@ Proceso SistemaDeVentaDePasajesAereos
 		Segun opcionMenu Hacer
 			1:
 				venderPasaje(rutasAereas,pasajeros,nombre,dni,telefono,numPasFrec,bodega,costoPasajes)
-				//Funcion aun no agregada
 			2:
 				buscarPasajeroNumAsiento(arrayAsientos,nombre,rutasAereas,dni)
 			3:
@@ -72,9 +71,6 @@ Proceso SistemaDeVentaDePasajesAereos
 				Escribir "error"
 		FinSegun
 	Hasta Que salirMenu = "SALIR"
-	//Validacion de SALIR
-	
-	
 	
 FinProceso
 
@@ -275,8 +271,6 @@ Funcion venderPasaje(rutasAereas,pasajeros,nombre,dni,telefono,numPasFrec, bodeg
 		
 	FinPara
 	
-	
-	
 FinFuncion
 
 //Funcion de buscar pasajero por numero de asiento
@@ -285,7 +279,7 @@ funcion buscarPasajeroNumAsiento(arrayAsientos,nombre,rutasAereas,dni)
 	
     Definir i Como Entero
 	
-    definir encontrado Como Entero
+    Definir encontrado Como Entero
     encontrado=0
 	
     Definir numAsientoIngresado Como Entero
