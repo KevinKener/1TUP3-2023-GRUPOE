@@ -6,6 +6,7 @@
 - Kevin Rodrigo Kener
 - Joaquín Benitez Velazquez
 - Pedro Olortegui Mendieta
+- Felipe Benjamin Rolon
 <hr>
 
 - Comision: 1TUP3
